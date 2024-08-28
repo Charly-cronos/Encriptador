@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Encriptador/imagenes/favicon.ico">
+    <link rel="stylesheet" href="../Encriptador/Estilos/estilos.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <!--Creando el encabezado de la página-->
+    <!--Creando el logo de Alura-->
+    <header>
+
+        <a href="https://www.aluracursos.com/">
+            <img src="../Encriptador/imagenes/logo_alura.svg" class="logoAlura">
+        </a>
+
+    </header>
+
+    <!--Creando la parte central del encriptador(ingresar texto)-->
+
+    <main>
+
+        <section class="entradaEncriptador">
+
+            <textarea class="encriptar" placeholder="Escribe o pega un texto aquí..."></textarea>
+
+            <div class="encriptadorAviso">
+                <img src="../Encriptador/imagenes/triángulo_exclamación.jpg" alt="imagen de advertencia" class="imagen-aviso" width="20">
+                <p class="texto-aviso">Sólo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="encripatdor-contenedor">
+                <button type="submit" class="boton-cifrar">Encriptar</button>
+                <button type="submit" class="boton-desencriptar">Desencriptar</button>
+            </div>
+
+        </section>
+
+        <!--Sección de la vista previa-->
+
+        <section class="informacionTarjeta">
+
+            <div class="tarjeta-contenedor">
+                <img src="../Encriptador/imagenes/muñeco.svg" alt="imagen de explorando" class="imagen-animada" width="250">
+                <p class="texto1">Lo sentimos, ningún mensaje fue encontrado.</p>
+                <p class="texto2">Ingrese el texto que desee encriptar o desencriptar.</p>
+            </div>
+
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="boton-copiar">Copiar</button>
+
+        </section>
+    </main>
+
+        <!--Haciendo el pie de página del encriptador-->
+
+        <footer>
+
+            <!--copyright de la página-->   
+            <p class="copyright">&copy; Copyright 2024 - Encriptador De Texto - Carlos Jiménez Sánchez</p>
+            <!--Contactos y más información-->
+
+            <a href="https://www.linkedin.com/in/jimenez-carlos-ige/">
+                <img src="../Encriptador/imagenes/linkedin.svg" alt="logo linkedin" class="linkedin" width="50">
+            </a>
+
+            <a href="https://github.com/Charly-cronos">
+                <img src="../Encriptador/imagenes/github.jpg" alt="logo github" class="gitHub" width="50">
+            </a>
+
+        </footer>
+
+
+        <script src=".//Script/encriptador.js"></script>
+
+</body>
+</html>
